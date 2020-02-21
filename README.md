@@ -17,6 +17,13 @@ diskutil unmount /dev/disk3s1
 
 #dd命令写入系统到sd卡
 time sudo dd bs=4m if=2020-02-13-raspbian-buster-lite.img  of=/dev/disk3
+
+
+➜  2020-02-13-raspbian-buster-lite.zip time sudo dd bs=4m if=2020-02-13-raspbian-buster-lite.img  of=/dev/disk3
+441+0 records in
+441+0 records out
+1849688064 bytes transferred in 450.527203 secs (4105608 bytes/sec)
+sudo dd bs=4m if=2020-02-13-raspbian-buster-lite.img of=/dev/disk3  0.02s user 15.26s system 3% cpu 7:30.61 total
 ```
 
 # 2 二次刷系统.
