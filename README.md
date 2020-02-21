@@ -19,5 +19,6 @@ diskutil unmount /dev/disk3s1
 time sudo dd bs=4m if=2020-02-13-raspbian-buster-lite.img  of=/dev/disk3
 ```
 
-#2 二次刷系统.
+# 2 二次刷系统.
+
 参考:http://www.wangbokun.com/%E7%89%A9%E8%81%94%E7%BD%91/2019/03/18/%E6%A0%91%E8%8E%93%E6%B4%BE.html#12-%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F
